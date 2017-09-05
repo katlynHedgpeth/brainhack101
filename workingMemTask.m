@@ -8,6 +8,7 @@ initials = answer{2,:};
 handedness = answer{3,:}; 
 fileName = [subject initials]; 
 a = 1; 
+b = 2; 
 
 addpath /Users/krh2382/Dropbox (LewPeaLab)/STUFF/color-wheel/slider_code_circ_original
 
