@@ -1,3 +1,4 @@
+
 % Subject info
 prompt = {'Subject number:', 'Subject initials:', 'Handedness:', 'Slack:',}; 
 defaults = {'1907', 'carl', '', '0'}; 
@@ -6,6 +7,7 @@ subject = answer{1,:};
 initials = answer{2,:}; 
 handedness = answer{3,:}; 
 fileName = [subject initials]; 
+a = 1; 
 
 addpath /Users/krh2382/Dropbox (LewPeaLab)/STUFF/color-wheel/slider_code_circ_original
 
